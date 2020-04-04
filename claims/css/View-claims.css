@@ -1,0 +1,47 @@
+modal-dialog {
+    margin-top: 30%;
+}
+
+.modal-content h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.modal-content p{
+    font-size:18px;
+}
+
+ 
+
+.modal-footer .btn {
+    background-color: #ED3237;
+    border-color: #ED3237;
+}
+
+.selected-month{
+    margin-top:24px;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.card {
+    margin-top:20px;
+}
+
+.card-block {
+    padding-left: 5%;
+}
+
+.card-title {
+    color: #ED3237;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+p {
+    margin-bottom: 5px;
+    color: black;
+    font-size: 17px;
+}

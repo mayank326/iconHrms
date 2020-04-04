@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>IRT</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="hamburger">
+            <button class="hamburger__button">
+                <span class="hamburger__button-bar"></span>
+                <span class="hamburger__button-bar"></span>
+                <span class="hamburger__button-bar"></span>
+            </button>
+        </nav>
+
+        <nav class="desktop">
+            <div class="desktop__navigation">
+                <p id="user-name">Welcome User</p>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="mobile">
+        <div style="width:100%;">
+            
+            <img src="/img/logo-icon.png"/>
+            
+            <ul class="mobile__items">
+                <li class="mobile__item" style="font-size:24px;margin-bottom:10px;"><b>Actions</b></li>
+                <a href="/claims/Claims.html"><li class="mobile__item"><i class="material-icons" style="vertical-align: -5px;">description</i> Claims</li></a>
+                <a href="/leave/View-leave.html"><li class="mobile__item"><i class="material-icons" style="vertical-align: -5px;">date_range</i> Leave</li></a>
+                <a href="Appraisal.html"><li class="mobile__item"><i class="material-icons" style="vertical-align: -5px;">monetization_on</i> Appraisal</li></a>
+                <a href="KRA.html"><li class="mobile__item"><i class="material-icons" style="vertical-align: -5px;">person</i> KRA</li></a>
+                <a href="Tickets.html"><li class="mobile__item"><i class="material-icons" style="vertical-align: -5px;">library_books</i> Ticket History</li></a>
+                <a href="TravelRequest.html"><li class="mobile__item"><i class="material-icons" style="vertical-align: -5px;">work</i> Travel Request</li></a>
+
+            </ul>
+
+            <hr>
+
+            <ul class="mobile__items">
+                <li class="mobile__item" style="margin-top:70px;"><i class="material-icons" style="vertical-align: -5px;">logout</i>Logout</li>
+            </ul>
+
+        </div>
+    </nav>
+
+    
+    <div class="container">
+
+        
+        <br>
+        <h2><center>Actions</center></h2>
+        <br>
+            <a href="/claims/Claims.html"><button type="button" class="btn btn-dark" style="width:45%;">Claims</button>
+            <a href="/leave/View-leave.html"><button type="button" class="btn btn-dark" style="width:45%;margin-left:5px;">Leave</button></a>
+            
+        <br><br>
+        
+            <a href="Appraisal.html"><button type="button" class="btn btn-dark" style="width:45%;">Appraisal</button></a>
+            <a href="KRA.html"><button type="button" class="btn btn-dark" style="width:45%;margin-left:5px;">KRA</button></a>
+
+            <br /><br>
+
+
+            <div id="main">
+                <div id="d1"><img src="/img/img_avatar2.png" alt="Avatar" style="width:80%"></div>
+                <div id="d2">
+                    <h4 id="name-text"><b></b></h4>
+                    <p id="role-text"></p>
+                </div>
+            </div>
+
+            <br /><br />
+
+            <div id="profile">
+
+                <div id="department">
+                    <i class="material-icons" style="vertical-align: -5px;">account_balance</i><span style="font-size:20px;"> Department </span>
+                    <p id="department-text" style="color:grey;margin-left:15%;font-size:18px;"></p>
+                </div>
+
+                <div id="phone">
+                    <i class="material-icons" style="vertical-align: -5px;">phone</i><span style="font-size:20px;"> Phone Number</span>
+                    <p id="phone-text" style="color:grey;margin-left:15%;font-size:18px;"></p>
+                </div>
+
+                <div id="email">
+                    <i class="material-icons" style="vertical-align: -5px;">email</i> <span style="font-size:20px;">Email ID</span>
+                    <p id="email-text" style="color:grey;margin-left:15%;font-size:18px;"></p>
+
+                </div>
+
+            </div>
+
+            <a href="/Help.html" class="float">
+                <i class="material-icons my-float">help_outline</i>
+            </a>
+
+
+</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/js/home.js"></script>
+</body>
+</html>

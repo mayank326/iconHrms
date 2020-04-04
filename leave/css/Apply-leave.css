@@ -1,0 +1,44 @@
+.modal-dialog{
+    margin-top:20%;
+}
+
+.modal-content h3{
+    margin-top:20px;
+    margin-left:10px;
+    font-weight:bold;
+}
+
+.modal-footer .btn {
+    background-color: #ED3237;
+    border-color: #ED3237;
+}
+
+
+.container h3{
+    margin-top:20px;
+    
+}
+
+.leave-sel{
+    margin-top:20px;
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.firstDay{
+    margin-top:20px;
+}
+
+#firstDayResponse{
+    margin-left:20px;
+}
+
+#secondDayResponse{
+    margin-left:20px;
+}
+
+.button-pos{
+    margin-top:40px;
+    float:right;
+    margin-right:20px;
+}

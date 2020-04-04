@@ -1,0 +1,25 @@
+
+.card {
+}
+
+.card-block {
+    padding-left: 5%;
+}
+
+.card-title {
+    color: #ED3237;
+    font-size: 22px;
+    margin-top: 8px;
+   margin-bottom:-3px; 
+}
+
+p {
+    font-size: 19px;
+    margin-top: -5px;
+    color: black;
+}
+
+.time-text {
+    font-size: 17px;
+    color: #ADD8E6;
+}

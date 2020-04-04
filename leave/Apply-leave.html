@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>IRT</title>
+    <link rel="stylesheet" href="/leave/css/Apply-leave.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+<body>
+
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <center><img src="/img/logo-icon.png" width="70%" height="auto" class="d-inline-block align-center" alt=""></center>
+        </a>
+    </nav>
+
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="onload">
+
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <h3>Apply for Leave</h3>
+                <div class="modal-body">
+
+                    <label>Choose Leave type :</label>
+                    <select class="custom-select" id="leave-type">
+                        <option value="Paid Leave" selected="selected">Paid Leave</option>
+                        <option value="Maternity Leave">Maternity Leave</option>
+                        <option value="Paternity Leave">Paternity Leave</option>
+                        <option value="Marriage Leave">Marriage Leave</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Main Body-->
+
+    <div class="container">
+
+        <center><h3>Leave Application</h3></center>
+
+        <p class="leave-sel">Leave Selected : <span class="selected-leave"></span></p>
+
+        <div class="firstDay" style="margin-top:10px;">
+
+            <label for="DatePicker">Start Date:</label>
+            <input type="date" id="startDate" name="startDate">
+
+            <p style="margin-top:10px;">
+                IsFullDay : <input type="checkbox" id="firstDay" checked />
+                <select id="firstDayResponse">
+                    <option value="First Half" selected="selected">First Half</option>
+                    <option value="Second Half">Second Half</option>
+
+                </select>
+
+            </p>
+
+        </div>
+
+
+        <div class="secondDay" style="margin-top:40px;">
+
+            <label for="DatePicker">End Date:</label>
+            <input type="date" id="endDate" name="endDate">
+
+
+            <p style="margin-top:10px;">
+                IsFullDay : <input type="checkbox" id="secondDay" checked />
+                <select id="secondDayResponse">
+                    <option value="First Half" selected="selected">First Half</option>
+                    <option value="Second Half">Second Half</option>
+
+                </select>
+            </p>
+        </div>
+
+        <textarea class="form-control" id="leaveReason" placeholder="Please enter the reason for leave..." required style="margin-top:30px;"></textarea>
+
+
+
+        <div class="button-pos">
+            <button type="button" class="btn" style="background-color:#ED3237;color:white;" id="submit">Submit</button>
+            <button type="button" class="btn" style="background-color:#ED3237;color:white" id="cancel">Cancel</button>
+        </div>
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="onSubmit">
+
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+
+                    <div class="modal-body">
+
+                        <p>Your leave has been successfully submited !!</p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" id="successSubmit">Ok</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="/leave/js/Apply-leave.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container h2 {
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+
+#Apply {
+    margin-top: 60px;
+    background-color: #ED3237;
+    color: white;
+    border-color: #ED3237;
+    font-size: 19px;
+}
+
+
+#View {
+    margin-top: 30px;
+    background-color: #ED3237;
+    color: white;
+    border-color: #ED3237;
+    font-size: 19px;
+}

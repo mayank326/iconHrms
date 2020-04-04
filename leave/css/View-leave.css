@@ -1,0 +1,53 @@
+.card{
+    margin-left:5%;
+    width:90%;
+    margin-top:10px;
+}
+
+.alloted-leave{
+    margin-left:10px;
+}
+
+.current-balance{
+    margin-left:10px;
+}
+
+
+.card {
+}
+
+.card-block {
+    padding-left: 5%;
+}
+
+.card-title {
+    color: #ED3237;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+p {
+    margin-bottom: 5px;
+    color: black;
+    font-size: 17px;
+}
+
+.float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ED3237;
+    color: floralwhite;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float {
+    margin-top: 8px;
+    align-self: center;
+    color: white;
+}

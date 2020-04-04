@@ -1,0 +1,176 @@
+
+body {
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+.header {
+    background: #ED3237;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 5px 20px;
+}
+
+/*hamburger icon*/
+.hamburger {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger__button {
+    width: 45px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+    .hamburger__button:focus {
+        outline: none;
+    }
+
+.hamburger__button-bar {
+    width: 100%;
+    height: 0.2rem;
+    background: white;
+    display: block;
+    margin: 0.4rem 0;
+}
+
+
+
+
+.desktop__navigation {
+    display: flex;
+      align-items:center;
+    
+    font-size:23px;
+   padding-top:15px;
+ }
+
+.desktop__navigation #mobile_name{
+    align-content:center;
+    margin-right:10%;
+}
+   
+
+  
+
+/*Mobile navigation*/
+.mobile {
+    position: fixed;
+    top: 0;
+    background: rgba(90, 90, 90, 1);
+    width: 80vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: left;
+    /*align-items: le;*/
+    text-align: left;
+    /*display: none;*/
+    transform: translateX(-100%);
+    transition: transform 500ms ease-out;
+}
+
+.mobile img{
+    width:100%;
+    background-color:white;
+    padding-top:20%;
+    padding-bottom:20%;
+    padding-left:2%;
+    padding-right:5%;
+}
+    .mobile #mobile_name {
+        margin-top: 50px;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    
+    .mobile__items {
+        list-style: none;
+        padding-left: 20px;
+        margin-left: 20px;
+        font-size: 20px;
+        margin-top:40px;
+    }
+
+
+        .mobile__items a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+    .mobile__items li{
+        margin-top:7px;
+    }
+
+.open {
+    display: flex;
+    transform: translateX(0);
+}
+
+
+/* MainContent */
+
+
+
+
+#main {
+   
+    float:left;
+    width: 95%;
+    height: auto;
+    border: 1px solid grey;
+    padding: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+    #main > div {
+        float: left;
+        margin: 2px;
+    }
+
+#d1 {
+    width: 45%;
+    height: auto;
+    
+}
+
+#d2 {
+    width: 45%;
+    height: auto;
+    padding-top:5%;
+}
+
+#profile {
+        float:left;
+        margin-top:30px;
+        
+}
+
+
+.float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ED3237;
+    color: floralwhite;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float {
+    margin-top:8px;
+    align-self:center;
+    color:white;
+}

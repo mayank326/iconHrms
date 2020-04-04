@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>IRT</title>
+    <link rel="stylesheet" href="/css/TravelRequest.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <center><img src="/img/logo-icon.png" width="70%" height="auto" class="d-inline-block align-center" alt=""></center>
+        </a>
+    </nav>
+
+    <div class="container">
+
+        <h3>Travel Request</h3>
+
+        <div class="form-group">
+            <label for="exampleFrom">From</label>
+            <input type="text" class="form-control" id="fromPlace">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleTo">To</label>
+            <input type="text" class="form-control" id="toPlace">
+        </div>
+
+        <div class="form-group">
+            <label for="DatePicker">Start Date : </label>
+            <input type="date" id="startDate" name="startDate">
+        </div>
+
+        <div class="form-group">
+            <label for="DatePicker">Return Date : </label>
+            <input type="date" id="returnDate" name="returnDate">
+        </div>
+
+        <div class="form-group">
+                <label for="stayPlace">Stay at</label>
+                <select class="custom-select" id="stayOption" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Hotel</option>
+                    <option>Guest House</option>
+                    <option>On my own</option>
+                </select>
+        </div>
+
+
+        <div class="form-group">
+                <label for="validationTextarea">Purpose of travel</label>
+                <textarea class="form-control" id="travelPurpose" placeholder="Please enter the purpose of your travelling..." required></textarea>
+                <div class="invalid-feedback">
+                    Please enter a message in the textarea.
+                </div>
+        </div>
+
+        <button type="button" class="btn" id="submit">Submit for approval</button>
+
+
+            <!-- Alert modal -->
+
+            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="onSubmit">
+
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+
+                        <div class="modal-body">
+
+                            <p>Your response has been successfully submited !!</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" id="successSubmit">Ok</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="/js/TravelRequest.js"></script>
+
+</body>
+</html>

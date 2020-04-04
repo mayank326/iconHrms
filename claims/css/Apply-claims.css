@@ -1,0 +1,72 @@
+modal-dialog {
+    margin-top: 30%;
+}
+
+.modal-content h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.modal-content p {
+    font-size: 18px;
+}
+
+
+
+.modal-footer .btn {
+    background-color: #ED3237;
+    border-color: #ED3237;
+}
+
+.container{
+    overflow-x:auto;
+}
+.container p {
+    font-size: 18px;
+}
+
+.selected-month {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.forMonth{
+    margin-top:20px;
+    
+}
+
+.forClient{
+    margin-top:20px;
+}
+
+.forAmount{
+    margin-top:20px;
+    overflow:hidden;
+}
+.forAmount div {
+    float: left;
+    clear: none;
+}
+
+.forDays{
+    margin-top:20px;
+}
+
+.forAttachment{
+    margin-top:20px;
+}
+
+#submit {
+    float:right;
+    background-color: #ED3237;
+    border-color: #ED3237;
+    color: white;
+    margin-top:40px;
+    margin-right:10px;
+    margin-bottom:20px;
+    
+}
+
